@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./fotoss/fundo.png');
+}
+
+li {
+    display: inline-block;
+    background-color: #bbbba7;
+    padding: 30px;
+    text-transform: uppercase;
+}
+li a {
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+}
+li :hover {
+    color: white;
+}
+ol {
+    background-color: #bbbba7;
+}
+div#geral {
+    width: 900px;
+    position: absolute;
+    top: 380px;
+}
+div#geral h2 {
+    font-size: 10pt;
+}
+div#menu h1 {
+    font-size: 15pt;
+}
+div#conteudo {
+    display: block;
+    background-color: white;
+    padding: 10px;
+}
+div#conteudo h1 {
+    font-size: 20pt;
+}
+div#image {
+    border: 10px solid #99958b;
+    width: 640px;
+    height: 425px;
+    display: block;
+    margin-bottom: 30px;
+}
